@@ -1,0 +1,28 @@
+{
+  "description": "A blank start for creating a FizzBuzz application",
+  "keywords": [
+    "tests",
+    "interview",
+    "web"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "FizzBuzz\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FizzBuzz\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
+  }
+}
