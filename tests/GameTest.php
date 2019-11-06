@@ -110,6 +110,7 @@ Fizz
 98
 Fizz
 Buzz
+
 EOD;
         $game = new Game();
         $this->expectOutputString($result);
